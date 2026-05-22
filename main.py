@@ -1,7 +1,7 @@
 """
 Student Performance Prediction System - Model Training & EDA Script
 ------------------------------------------------------------------
-This script is designed for beginners to understand the end-to-end Machine Learning pipeline:
+
 1. Load dataset using Pandas.
 2. Preprocess data (handling duplicates, missing values, and column creation).
 3. Encode categorical features using Scikit-Learn's LabelEncoder.
@@ -9,7 +9,7 @@ This script is designed for beginners to understand the end-to-end Machine Learn
 5. Train a RandomForestClassifier to predict student performance levels.
 6. Evaluate the model with Accuracy, Classification Report, and Confusion Matrix.
 7. Save the trained model and fitted encoders using Pickle for the Streamlit web dashboard.
-Author: Antigravity AI
+
 OS: Windows Compatible
 """
 import os
